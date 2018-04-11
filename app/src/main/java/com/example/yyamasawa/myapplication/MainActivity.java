@@ -3,6 +3,7 @@ package com.example.yyamasawa.myapplication;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -40,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
                 else {
                     Toast.makeText(view.getContext(), "未入力です", Toast.LENGTH_SHORT).show();
                 }
+
+                Log.d("test", "テスト");
             }
         });
     }
